@@ -1,0 +1,58 @@
+#abc {
+    text-align:center;
+    padding-top:2%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#line {
+    width:400px;
+    border-top:2px solid rgb(129, 122, 122);/*#f8f8f8 */
+    border-bottom:2px solid rgba(0,0,0,0.2);
+    max-width: 90%;
+    
+}
+
+html {
+    height:100%;
+}
+
+#canvas {
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
+
+#con {
+    width : 280px;
+    height : 280px;
+    margin: 0 auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 50px;
+    /* display: block; */
+    border : 3px solid black;
+    /* align-items: center; */
+}
+
+#he {
+    color:rgb(43, 44, 56);
+    font-weight: 600;
+    font-size:3em;
+    margin-bottom: 3px ;
+}
+
+#he1 {
+    font-weight: 500;
+}
+
+body {
+    font-family: Roboto;
+    /* background: #2BC0E4;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  Chrome 10-25, Safari 5.1-6 */
+    background: url("back.jpg");
+    /* background: url("{{ url_for('static', filename='back.jpg') }}"); */
+    background-size:cover;
+    background-position:center;
+}
