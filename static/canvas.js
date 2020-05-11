@@ -4,6 +4,7 @@ var ctx = canvas.getContext("2d");
 var painting = document.getElementById("con");
 var paintStyle = getComputedStyle(painting);
 var clear = document.getElementById("clear");
+var result = document.getElementById("result");
 
 canvas.width = parseInt(paintStyle.getPropertyValue("width"));
 canvas.height = parseInt(paintStyle.getPropertyValue("height"));
@@ -40,6 +41,8 @@ clear.addEventListener("click",function(){
     ctx.clearRect(0,0,280,280);
     ctx.fillStyle="white";
     ctx.fillRect(0,0,canvas.width,canvas.height);
+    // clear.text(" ");
+    result.innerHTML="";
 })
 
 
