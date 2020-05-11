@@ -1,2 +1,2 @@
 # digit-recognizer
-flask web app
+flask web app for recognizing hand written digits.
