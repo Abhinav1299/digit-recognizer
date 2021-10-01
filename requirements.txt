@@ -4,7 +4,7 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
 numpy==1.17.4
-scikit-image==0.18.1
+scikit-image==0.17.1
 Keras==2.4.3
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
